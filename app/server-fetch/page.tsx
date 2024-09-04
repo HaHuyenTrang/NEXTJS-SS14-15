@@ -9,7 +9,7 @@ export default async function Page() {
   return (
     <div>tìm dữ liệu server  với fetch
         {users.map((item:any)=>{
-            return <li>tên: {item.name}
+            return <li key={item.id}>tên: {item.name}
                       <br />
                        _____________________________
             </li>

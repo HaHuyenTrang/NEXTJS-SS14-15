@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <div>fetching data với thư viện swr
         {data.map((item:any)=>{
-            return <li>tên: {item.name}
+            return <li key={item.id}>tên: {item.name}
             <br />
             _____________________________
             </li>

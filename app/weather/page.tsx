@@ -11,7 +11,7 @@ export default async function Page() {
   return (
     <div>nhiệt độ, tình trạng thời tiết
       {weather.map((item:any)=>{
-        return <li>{item.time}</li>
+        return <li key={item.id}>{item.time}</li>
       })}
     </div>
   )
