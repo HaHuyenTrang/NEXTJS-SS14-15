@@ -9,7 +9,7 @@ async function getProduct() {
     
     
 }
-export default async function page() {
+export default async function Page() {
    const product= await getProduct(); 
    console.log(product);
   return (

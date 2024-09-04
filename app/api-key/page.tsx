@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export async function getServerSideProps() {
+export async function GetServerSideProps() {
     try {
       const response = await axios.get('https://example.com/invalid-endpoint');
       return {

@@ -5,7 +5,7 @@ import axios from 'axios'
 // hàm lấy data
 const getData=(url:string)=>axios.get(url).then(res=>{return res.data})
 
-export default function page() {
+export default function Page() {
     const {data, error}=useSWR(
         "https://jsonplaceholder.typicode.com/users",
         getData

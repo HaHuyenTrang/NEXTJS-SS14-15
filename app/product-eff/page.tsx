@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-export default function page() {
+export default function Page() {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     fetch("http://localhost:3000/api")

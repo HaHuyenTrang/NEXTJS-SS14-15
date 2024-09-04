@@ -7,7 +7,7 @@ async function getData() {
     
 }
 getData();
-export default async function page() {
+export default async function Page() {
     const user = await getData();
   return (
     <div>tìm dữ liệu server bằng axios

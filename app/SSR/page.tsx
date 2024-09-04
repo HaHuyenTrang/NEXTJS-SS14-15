@@ -4,7 +4,7 @@ async function getData(){
     const data = res.json();
     return data
 }
-export default async function page() {
+export default async function Page() {
     const data= await getData();
   return (
     <div>List of post
